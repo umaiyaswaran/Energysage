@@ -1,0 +1,92 @@
+{
+  "household": {
+    "devices": [
+      {"name": "Air Conditioner", "category": "heating_cooling", "avgConsumption": 900},
+      {"name": "Water Heater", "category": "water_heating", "avgConsumption": 400},
+      {"name": "Refrigerator", "category": "appliances", "avgConsumption": 150},
+      {"name": "LED Lights", "category": "lighting", "avgConsumption": 50},
+      {"name": "Television", "category": "electronics", "avgConsumption": 100},
+      {"name": "Washing Machine", "category": "appliances", "avgConsumption": 250}
+    ],
+    "dailyData": [
+      {"date": "2025-09-20", "consumption": 45.2, "cost": 481.33, "carbon": 22.6},
+      {"date": "2025-09-21", "consumption": 42.8, "cost": 455.39, "carbon": 21.4},
+      {"date": "2025-09-22", "consumption": 48.6, "cost": 517.08, "carbon": 24.3},
+      {"date": "2025-09-23", "consumption": 51.2, "cost": 544.77, "carbon": 25.6},
+      {"date": "2025-09-24", "consumption": 46.9, "cost": 498.99, "carbon": 23.45},
+      {"date": "2025-09-25", "consumption": 43.5, "cost": 462.84, "carbon": 21.75},
+      {"date": "2025-09-26", "consumption": 47.8, "cost": 508.55, "carbon": 23.9}
+    ],
+    "hourlyData": [
+      {"hour": 0, "consumption": 1.2},
+      {"hour": 1, "consumption": 0.9},
+      {"hour": 2, "consumption": 0.8},
+      {"hour": 3, "consumption": 0.7},
+      {"hour": 4, "consumption": 0.8},
+      {"hour": 5, "consumption": 1.1},
+      {"hour": 6, "consumption": 1.8},
+      {"hour": 7, "consumption": 2.5},
+      {"hour": 8, "consumption": 2.8},
+      {"hour": 9, "consumption": 2.3},
+      {"hour": 10, "consumption": 2.1},
+      {"hour": 11, "consumption": 2.2},
+      {"hour": 12, "consumption": 2.4},
+      {"hour": 13, "consumption": 2.3},
+      {"hour": 14, "consumption": 2.1},
+      {"hour": 15, "consumption": 2.0},
+      {"hour": 16, "consumption": 2.2},
+      {"hour": 17, "consumption": 2.6},
+      {"hour": 18, "consumption": 3.1},
+      {"hour": 19, "consumption": 3.4},
+      {"hour": 20, "consumption": 3.2},
+      {"hour": 21, "consumption": 2.8},
+      {"hour": 22, "consumption": 2.1},
+      {"hour": 23, "consumption": 1.5}
+    ]
+  },
+  "industry": {
+    "machines": [
+      {"name": "Assembly Line", "category": "manufacturing", "avgConsumption": 5000},
+      {"name": "Industrial HVAC", "category": "climate_control", "avgConsumption": 3000},
+      {"name": "Compressor System", "category": "utilities", "avgConsumption": 2000},
+      {"name": "Factory Lighting", "category": "lighting", "avgConsumption": 1000},
+      {"name": "Data Center", "category": "office", "avgConsumption": 1500},
+      {"name": "CNC Machines", "category": "manufacturing", "avgConsumption": 4000}
+    ],
+    "dailyData": [
+      {"date": "2025-09-20", "consumption": 352.5, "cost": 3750.60, "carbon": 176.25},
+      {"date": "2025-09-21", "consumption": 368.4, "cost": 3919.78, "carbon": 184.2},
+      {"date": "2025-09-22", "consumption": 345.8, "cost": 3679.31, "carbon": 172.9},
+      {"date": "2025-09-23", "consumption": 378.2, "cost": 4024.05, "carbon": 189.1},
+      {"date": "2025-09-24", "consumption": 361.9, "cost": 3850.63, "carbon": 180.95},
+      {"date": "2025-09-25", "consumption": 355.6, "cost": 3783.58, "carbon": 177.8},
+      {"date": "2025-09-26", "consumption": 371.3, "cost": 3950.63, "carbon": 185.65}
+    ],
+    "hourlyData": [
+      {"hour": 0, "consumption": 12.5},
+      {"hour": 1, "consumption": 11.8},
+      {"hour": 2, "consumption": 11.2},
+      {"hour": 3, "consumption": 10.9},
+      {"hour": 4, "consumption": 11.5},
+      {"hour": 5, "consumption": 13.2},
+      {"hour": 6, "consumption": 15.8},
+      {"hour": 7, "consumption": 18.5},
+      {"hour": 8, "consumption": 19.8},
+      {"hour": 9, "consumption": 20.3},
+      {"hour": 10, "consumption": 20.1},
+      {"hour": 11, "consumption": 19.8},
+      {"hour": 12, "consumption": 19.4},
+      {"hour": 13, "consumption": 19.3},
+      {"hour": 14, "consumption": 19.1},
+      {"hour": 15, "consumption": 19.0},
+      {"hour": 16, "consumption": 18.8},
+      {"hour": 17, "consumption": 18.2},
+      {"hour": 18, "consumption": 17.5},
+      {"hour": 19, "consumption": 16.8},
+      {"hour": 20, "consumption": 15.5},
+      {"hour": 21, "consumption": 14.2},
+      {"hour": 22, "consumption": 13.5},
+      {"hour": 23, "consumption": 12.8}
+    ]
+  }
+}
